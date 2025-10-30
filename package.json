@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Osama Nagy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.0",
+    "htmlnano": "^2.0.3",
+    "parcel": "^2.16.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.93.0"
+  },
+  "dependencies": {
+    "core-js": "^3.45.1",
+    "fractional": "^1.0.0",
+    "fractional.js": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
